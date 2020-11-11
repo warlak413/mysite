@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+#logo{
+    height: 50px;
+    margin-left: 50px;
+}
+#menu{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7vw;
+}
+h3{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: orange;    
+}
+h3:hover{
+    text-decoration: underline; 
+}
+#bEnter{
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    width: 60px;
+    text-align: center;
+    transition: 1s;
+}
+#bEnter:hover{
+    cursor: pointer;
+    background-color: rgb(114, 1, 1); 
+}
+#bRegistr{margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    width: 90px;
+    text-align: center;
+    transition: 1s;
+    height: 20px ;
+}
+#bRegistr:hover{
+    cursor: pointer;
+    background-color: rgb(63, 4, 78);
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.219);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 112vh;
+}
+main{
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+}
+main h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: darkblue;
+}
